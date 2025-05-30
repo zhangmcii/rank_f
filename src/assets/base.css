@@ -36,6 +36,10 @@
   --section-gap: 160px;
 }
 
+:root {
+  --bg-color: #f5f4de;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --color-background: var(--vt-c-black);
@@ -61,7 +65,7 @@
 body {
   min-height: 100vh;
   color: var(--color-text);
-  background: var(--color-background);
+  background: var(--bg-color);
   transition:
     color 0.5s,
     background-color 0.5s;
